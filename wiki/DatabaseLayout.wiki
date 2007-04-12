@@ -1,1 +1,2 @@
+#labels areatrigger_involvedrelation,areatrigger_tavern
 This is the table layout for the database. Each table will be clickable to see its layout.
