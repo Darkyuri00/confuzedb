@@ -1,13 +1,24 @@
 #summary One-sentence summary of this page.
 
-= Introduction =
+#summary One-sentence summary of this page.
 
-Add your content here.
+= ConfuzeDB Features =
+
+ConfuzeDB is a project to make a custom database for mangos. The purpose of this project os to learn how to create, design, and code and MaNGOS MySQL database from scratch. The project will be layed out in detail so that newbies can read the documentation and start contributing. 
 
 
-= Details =
+= Project Purpose =
 
-Add your content here.  Format your content with:
-  * Text in *bold* or _italic_
-  * Headings, paragraphs, and lists
-  * Automatic links to other wiki pages
+ConfuzeDB's purpose is to learn the following and more.
+  * How to use MySQL.
+  * How to script in MySQL.
+  * How to create a game storyline.
+  * How to Design deep storyline driven questing.
+  * How to run and co-exist in a Development community.
+  * How to use an SVN project.
+
+= Project Goals =
+  * 
+
+
+
