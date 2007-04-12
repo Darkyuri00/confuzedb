@@ -42,8 +42,7 @@ CREATE TABLE `character` (
 
 === Column Layout ===
 
-|| account || data || name || race || class || position_x || position_y || position_z || map || orientation || taximask || online || highest_rank || standing || rating || cinematic || totaltime || leveltime || logout_time || is_logout_resting || rest_bonus || resettalents_cost || resettalents_time || trans_x || trans_y || trans_z || trans_o || transguid || gmstate || stable_slots ||
-|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || || 
-|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || ||
-
+|| guid || account || data || name || race || class || position_x || position_y || position_z || map || orientation || taximask || online || highest_rank || standing || rating || cinematic || totaltime || leveltime || logout_time || is_logout_resting || rest_bonus || resettalents_cost || resettalents_time || trans_x || trans_y || trans_z || trans_o || transguid || gmstate || stable_slots ||
+|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || || ||
+|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || || ||
 
