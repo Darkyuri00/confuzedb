@@ -1,3 +1,3 @@
-This file will explain our SVN file structure.
+This file will explain our SVN file structure..
 
 layout - This folder contains a script to make each table in the database. The Full.sql is a single file for whole DB.
