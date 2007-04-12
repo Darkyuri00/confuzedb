@@ -17,8 +17,11 @@ ConfuzeDB's purpose is to learn the following and more.
   * How to run and co-exist in a Development community.
   * How to use an SVN project.
 
-= Project Goals =
-  * 
-
+= Database Goals =
+  * Completely Custom Database.
+    * New Playable Races. 
+  * Custom Professions.
+  * Custom Spells.
+  * Long Storyline and Storyline driven quests.
 
 
