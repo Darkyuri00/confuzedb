@@ -1,0 +1,49 @@
+=== Create Empty Table ===
+
+{{{
+CREATE TABLE `character` (                                                          
+             `guid` int(11) unsigned NOT NULL default '0' COMMENT 'Global Unique Identifier',  
+             `account` int(11) unsigned NOT NULL default '0' COMMENT 'Account Identifier',     
+             `data` longtext,                                                                  
+             `name` varchar(12) NOT NULL default '',                                           
+             `race` tinyint(3) unsigned NOT NULL default '0',                                  
+             `class` tinyint(3) unsigned NOT NULL default '0',                                 
+             `position_x` float NOT NULL default '0',                                          
+             `position_y` float NOT NULL default '0',                                          
+             `position_z` float NOT NULL default '0',                                          
+             `map` int(11) unsigned NOT NULL default '0' COMMENT 'Map Identifier',             
+             `orientation` float NOT NULL default '0',                                         
+             `taximask` longtext,                                                              
+             `online` tinyint(3) unsigned NOT NULL default '0',                                
+             `highest_rank` int(11) NOT NULL default '0',                                      
+             `standing` int(11) NOT NULL default '0',                                          
+             `rating` float NOT NULL default '0',                                              
+             `cinematic` tinyint(3) unsigned NOT NULL default '0',                             
+             `totaltime` int(11) unsigned NOT NULL default '0',                                
+             `leveltime` int(11) unsigned NOT NULL default '0',                                
+             `logout_time` int(11) NOT NULL default '0',                                       
+             `is_logout_resting` tinyint(3) NOT NULL default '0',                              
+             `rest_bonus` float NOT NULL default '0',                                          
+             `resettalents_cost` int(11) unsigned NOT NULL default '0',                        
+             `resettalents_time` bigint(20) unsigned NOT NULL default '0',                     
+             `trans_x` float NOT NULL default '0',                                             
+             `trans_y` float NOT NULL default '0',                                             
+             `trans_z` float NOT NULL default '0',                                             
+             `trans_o` float NOT NULL default '0',                                             
+             `transguid` bigint(20) unsigned NOT NULL default '0',                             
+             `gmstate` tinyint(3) unsigned NOT NULL default '0',                               
+             `stable_slots` tinyint(1) unsigned NOT NULL default '0',                          
+             PRIMARY KEY  (`guid`),                                                            
+             KEY `idx_account` (`account`),                                                    
+             KEY `idx_online` (`online`)                                                       
+           ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Player System'     
+
+}}}
+
+=== Column Layout ===
+
+|| account || data || name || race || class || position_x || position_y || position_z || map || orientation || taximask || online || highest_rank || standing || rating || cinematic || totaltime || leveltime || logout_time || is_logout_resting || rest_bonus || resettalents_cost || resettalents_time || trans_x || trans_y || trans_z || trans_o || transguid || gmstate || stable_slots ||
+|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || || 
+|| || || || || || || || || || || || || || || || || || || || || || || || || || || || || || ||
+
+
