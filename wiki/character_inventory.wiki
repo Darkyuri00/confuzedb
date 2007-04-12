@@ -10,3 +10,7 @@ CREATE TABLE `character_inventory` (
                        UNIQUE KEY `idx_item` (`item`)                                                         
                      ) ENGINE=MyISAM DEFAULT CHARSET=utf8 COMMENT='Player System'              
 }}}
+
+=== Column Layout ===
+
+=== Table Info ===
