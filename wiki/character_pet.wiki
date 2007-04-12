@@ -1,0 +1,29 @@
+=== Create Empty Table ===
+{{{
+CREATE TABLE `character_pet` (                                                                     
+                 `id` int(11) unsigned NOT NULL default '0',                                                      
+                 `entry` int(11) unsigned NOT NULL default '0',                                                   
+                 `owner` int(11) unsigned NOT NULL default '0',                                                   
+                 `modelid` int(11) unsigned default '0',                                                          
+                 `level` int(11) unsigned NOT NULL default '1',                                                   
+                 `exp` int(11) unsigned NOT NULL default '0',                                                     
+                 `nextlvlexp` int(11) unsigned NOT NULL default '100',                                            
+                 `spell1` int(11) unsigned NOT NULL default '0',                                                  
+                 `spell2` int(11) unsigned NOT NULL default '0',                                                  
+                 `spell3` int(11) unsigned NOT NULL default '0',                                                  
+                 `spell4` int(11) unsigned NOT NULL default '0',                                                  
+                 `action` int(11) unsigned NOT NULL default '0',                                                  
+                 `fealty` int(11) unsigned NOT NULL default '0',                                                  
+                 `loyalty` int(11) unsigned NOT NULL default '1',                                                 
+                 `trainpoint` int(11) unsigned NOT NULL default '0',                                              
+                 `name` varchar(100) default 'Pet',                                                               
+                 `renamed` tinyint(1) unsigned NOT NULL default '0',                                              
+                 `slot` tinyint(1) unsigned NOT NULL default '0',                                                 
+                 PRIMARY KEY  (`id`),                                                                             
+                 KEY `owner` (`owner`)                                                                            
+               ) ENGINE=MyISAM AUTO_INCREMENT=67 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Player System'  
+}}}
+
+=== Column Layout ===
+
+=== Table Info ===
