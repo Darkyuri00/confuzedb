@@ -13,3 +13,5 @@ CREATE TABLE `areatrigger_involvedrelation` (
 
 || id || quest ||
 ||    ||       ||
+
+=== Table Info ===
