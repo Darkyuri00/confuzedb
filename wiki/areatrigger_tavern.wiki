@@ -12,6 +12,6 @@ CREATE TABLE `areatrigger_tavern` (
 
 === Column Layout ===
 
-|| id || quest ||
+|| id || name ||
 
 === Table info ===
