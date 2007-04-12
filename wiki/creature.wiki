@@ -1,0 +1,31 @@
+#labels Database
+=== Create Empty Table ===
+{{{
+CREATE TABLE `creature` (                                                                                
+            `guid` int(11) unsigned NOT NULL auto_increment COMMENT 'Global Unique Identifier',                    
+            `id` int(11) unsigned NOT NULL default '0' COMMENT 'Creature Identifier',                              
+            `map` int(11) unsigned NOT NULL default '0' COMMENT 'Map Identifier',                                  
+            `position_x` float NOT NULL default '0',                                                               
+            `position_y` float NOT NULL default '0',                                                               
+            `position_z` float NOT NULL default '0',                                                               
+            `orientation` float NOT NULL default '0',                                                              
+            `spawntimesecs` int(11) unsigned NOT NULL default '120',                                               
+            `spawndist` float NOT NULL default '5',                                                                
+            `currentwaypoint` int(11) unsigned NOT NULL default '0',                                               
+            `spawn_position_x` float NOT NULL default '0',                                                         
+            `spawn_position_y` float NOT NULL default '0',                                                         
+            `spawn_position_z` float NOT NULL default '0',                                                         
+            `spawn_orientation` float NOT NULL default '0',                                                        
+            `curhealth` int(11) unsigned NOT NULL default '1',                                                     
+            `curmana` int(11) unsigned NOT NULL default '0',                                                       
+            `state` tinyint(3) unsigned NOT NULL default '0',                                                      
+            `MovementType` tinyint(3) unsigned NOT NULL default '0',                                               
+            `auras` longtext,                                                                                      
+            PRIMARY KEY  (`guid`),                                                                                 
+            KEY `idx_map` (`map`)                                                                                  
+          ) ENGINE=MyISAM AUTO_INCREMENT=992555 DEFAULT CHARSET=utf8 ROW_FORMAT=DYNAMIC COMMENT='Creature System'  
+}}}
+
+=== Column Layout ===
+
+=== Table Info ===
