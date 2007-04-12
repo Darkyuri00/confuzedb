@@ -2,6 +2,7 @@
 This is the table layout for the database. Each table will be clickable to see its layout.
 
 Database:ConfuzeDB
+  * [areatrigger_involvedrelation]
   * [areatrigger_tavern]
   * [areatrigger_template]
   * [auctionhouse]        
