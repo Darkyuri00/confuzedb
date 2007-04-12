@@ -21,3 +21,5 @@ CREATE TABLE `areatrigger_template` (
 === Column Layout ===
 
 || id || name || required_level || trigger_map || trigger_position_x || trigger_position_y || trigger_position_z || target_map || target_position_x || target_position_y || target_position_z || target_orientation || 
+|| || || || || || || || || || || || || 
+|| || || || || || || || || || || || || 
