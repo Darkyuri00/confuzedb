@@ -1,4 +1,4 @@
-#labels Database,bugreport,character
+#labels Database
 This is the table layout for the database. Each table will be clickable to see its layout.
 
 Database:ConfuzeDB
@@ -88,4 +88,3 @@ Database:ConfuzeDB
   * [spell_scripts]       
   * [spell_threat]
   * [transports]
-
