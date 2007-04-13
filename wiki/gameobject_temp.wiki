@@ -1,6 +1,27 @@
 #labels Database
 === Create Empty Table ===
 {{{
+CREATE TABLE `gameobject_temp` (                                                   
+                   `entry` int(20) unsigned NOT NULL default '0',                                   
+                   `type` int(11) unsigned NOT NULL default '0',                                    
+                   `displayId` int(11) unsigned NOT NULL default '0',                               
+                   `name` char(100) NOT NULL default '0',                                           
+                   `faction` int(4) unsigned NOT NULL default '0',                                  
+                   `flags` int(4) unsigned NOT NULL default '0',                                    
+                   `size` float NOT NULL default '1',                                               
+                   `sound0` int(11) unsigned NOT NULL default '0',                                  
+                   `sound1` int(11) unsigned NOT NULL default '0',                                  
+                   `sound2` int(11) unsigned NOT NULL default '0',                                  
+                   `sound3` int(11) unsigned NOT NULL default '0',                                  
+                   `sound4` int(11) unsigned NOT NULL default '0',                                  
+                   `sound5` int(11) unsigned NOT NULL default '0',                                  
+                   `sound6` int(11) unsigned NOT NULL default '0',                                  
+                   `sound7` int(11) unsigned NOT NULL default '0',                                  
+                   `sound8` int(11) unsigned NOT NULL default '0',                                  
+                   `sound9` int(11) unsigned NOT NULL default '0',                                  
+                   `ScriptName` char(100) NOT NULL default '',                                      
+                   PRIMARY KEY  (`entry`)                                                           
+                 ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Gameobject System'  
 
 }}}
 
