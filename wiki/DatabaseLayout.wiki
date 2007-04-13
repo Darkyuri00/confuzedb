@@ -57,6 +57,7 @@ Database:ConfuzeDB
   * [item_instance]       
   * [item_loot_template]  
   * [item_page]           
+  * [item_template]
   * [item_text]           
   * [lfg_template]        
   * [mail]                
