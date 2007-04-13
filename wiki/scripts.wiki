@@ -1,0 +1,14 @@
+#labels Database
+=== Create Empty Table ===
+{{{
+
+}}}
+
+=== Column Layout ===
+
+|| || || || || || || || || ||
+|| || || || || || || || || ||
+|| || || || || || || || || ||
+
+
+=== Table Info ===
