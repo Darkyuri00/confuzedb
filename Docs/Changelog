@@ -1,0 +1,126 @@
+Rev .009(SVN_178)
+-Add
+* Had to add the Doc folder back
+* New Changelog file that will correlate SVN and actuall dev revisions.
+
+Rev .008(SVN_177)
+-Rename
+* /docs -> /docs
+-Moved
+* CONTRIBUTORS -> /Docs
+* SVN_CONTENTS -> /Docs
+
+Rev .007(SVN_176)
+-added
+* docs
+-moved
+* EULA
+* INSTALL
+* README
+
+Rev .006(SVN_175)
+-update
+* INSTALL
+
+Rev .005
+-added
+*CONTRIBUTORS
+
+
+
+Rev .004
+-added to /layout
+* character_ticket.sql
+* command.sql
+* corpse.sql
+* corpse_grid.sql
+* creature.sql
+* creature_addon.sql
+* creature_grid.sql
+* creature_involvedrelation.sql
+* creature_loot_template.sql
+* creature_movement.sql
+* creature_questrelation.sql
+* creature_respawn.sql
+* creature_template.sql
+* disenchant_loot_template.sql
+* fishing_loot_template.sql
+* game_addons.sql
+* game_graveyard_zone.sql
+* game_tele.sql
+* game_weather.sql
+* gameobject_grid.sql
+* gameobject_involvedrelation.sql
+* gameobject_loot_template.sql
+* gameobject_questrelation.sql
+* gameobject_respawn.sql
+* gameobject_temp.sql
+* gameobject_template.sql
+* guild.sql
+* guild_charter.sql
+* guild_member.sql
+* guild_rank.sql
+* item_instance.sql
+* item_loot_template.sql
+* item_page.sql
+* item_template.sql
+* item_text.sql
+* lfg_template.sql
+* mail.sql
+* npc_gossip.sql
+* npc_gossip_textid.sql
+* npc_option.sql
+* npc_text.sql
+* page_text.sql
+* pet_levelstats.sql
+* pet_name_generation.sql
+* pickpocketing_loot_template.sql
+* player_levelstats.sql
+* playercreateinfo.sql
+* playercreateinfo_action.sql
+* playercreateinfo_item.sql
+* playercreateinfo_skill.sql
+* playercreateinfo_spell.sql
+* raidgroup.sql
+* raidgroup_member.sql
+* scripts.sql
+* spell_chain.sql
+* spell_learn_skill.sql
+* spell_learn_spell.sql
+* spell_proc_event.sql
+* spell_scripts.sql
+* spell_threat.sql
+* transports.sql
+
+
+Rev .003
+-added
+* character_stable.sql
+
+
+Rev .002
+-added in /layout
+  * character_gifts.sql
+  * character_homebind.sql
+  * character_inventory.sql
+  * character_kill.sql
+  * character_pet.sql
+  * character_queststatus.sql
+  * character_reputation.sql
+  * character_social.sql
+  * character_spell.sql
+  * character_spell_cooldown.sql
+
+
+Rev .001
+-added in /layout
+  * areatrigger_involvedrelation.sql
+  * areatrigger_tavern.sql
+  * areatrigger_template.sql
+  * auctionhouse.sql
+  * bugreport.sql
+  * character.sql
+  * character_action.sql
+  * character_aura.sql
+-Updated README
+-Added SVN_CONTENTS
