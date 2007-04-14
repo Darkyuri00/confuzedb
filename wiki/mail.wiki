@@ -28,3 +28,51 @@ CREATE TABLE `mail` (
 
 
 === Table Info ===
+
+id:
+
+Unique identifier for every mail
+
+messageType:
+
+0 for normal mails, 2 for mails from auctionhouses
+
+sender:
+
+Sender's guid
+
+receiver:
+
+Receiver's guid
+
+subject:
+
+The subject of the message
+
+item_guid:
+
+unique identifier to item, foreign key to item_instance table
+
+itemTextId:
+
+Foreign key to body of message. Body is stored in item_text table
+
+item_template:
+
+useful for item loading
+
+time:
+
+Time, when mail will be deleted ... in 30 days or in 3 days when having COD. Time is number of miliseconds from 1.1.1970
+
+money:
+
+Sum of money attached to mail
+
+COD:
+
+Cash on delivery amount .. sum of money, which must receiver pay to take item attached in mail.
+
+checked:
+
+only simple boolean if mail is read. 
