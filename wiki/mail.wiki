@@ -21,11 +21,32 @@ CREATE TABLE `mail` (
 }}}
 
 === Column Layout ===
-
-|| || || || || || || || || ||
-|| || || || || || || || || ||
-|| || || || || || || || || ||
-
+ 	  	  	  	  	 
+|| Field || Type || Attributes || Null || Default || Extra ||
+|| id || bigint(20) || UNSIGNED || No ||
+|| messageType || int(11) || UNSIGNED || No ||
+|| sender || bigint(20) || UNSIGNED || No ||
+|| receiver || bigint(20) || UNSIGNED || No |||
+|| subject || longtext || Yes || Yes ||
+|| item_guid || bigint(20) || UNSIGNED || No ||
+|| itemTextId  || int(11) || UNSIGNED || No ||
+|| item_template || int(11) || UNSIGNED || No ||
+|| time || bigint(20) || UNSIGNED || No ||
+|| money || bigint(20) || UNSIGNED || No ||
+|| COD || bigint(20) || UNSIGNED || No ||
+|| checked || bigint(20) || UNSIGNED || No ||
+ 	 UNSIGNED 	 No 	 0 	
+ 	UNSIGNED 	No 	0 	
+ 	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+		Yes 	NULL 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0 	
+	UNSIGNED 	No 	0  	 
 
 === Table Info ===
 
