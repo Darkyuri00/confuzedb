@@ -1,0 +1,82 @@
+### Create Empty Table ###
+```
+CREATE TABLE `creature_template` (                                               
+                     `entry` int(11) unsigned NOT NULL default '0',                                 
+                     `modelid_m` int(11) unsigned default '0',                                      
+                     `modelid_f` int(11) unsigned default '0',                                      
+                     `name` varchar(100) NOT NULL default '0',                                      
+                     `subname` varchar(100) default NULL,                                           
+                     `minlevel` tinyint(3) unsigned default '1',                                    
+                     `maxlevel` tinyint(3) unsigned default '1',                                    
+                     `minhealth` int(5) unsigned default '0',                                       
+                     `maxhealth` int(5) unsigned default '0',                                       
+                     `minmana` int(5) unsigned default '0',                                         
+                     `maxmana` int(5) unsigned default '0',                                         
+                     `armor` int(10) unsigned NOT NULL default '0',                                 
+                     `faction` int(4) unsigned default '0',                                         
+                     `npcflag` int(4) unsigned default '0',                                         
+                     `speed` float default '0',                                                     
+                     `rank` tinyint(3) unsigned default '0',                                        
+                     `mindmg` float default '0',                                                    
+                     `maxdmg` float default '0',                                                    
+                     `attackpower` int(10) unsigned NOT NULL default '0',                           
+                     `baseattacktime` int(4) unsigned default '0',                                  
+                     `rangeattacktime` int(4) unsigned default '0',                                 
+                     `flags` int(11) unsigned default '0',                                          
+                     `mount` int(5) unsigned default '0',                                           
+                     `dynamicflags` int(11) unsigned default '0',                                   
+                     `size` float default '0',                                                      
+                     `family` int(11) default '0',                                                  
+                     `bounding_radius` float default '0',                                           
+                     `trainer_type` tinyint(3) default '0',                                         
+                     `trainer_spell` int(11) unsigned default '0',                                  
+                     `class` tinyint(3) unsigned default '0',                                       
+                     `race` tinyint(3) unsigned default '0',                                        
+                     `minrangedmg` float NOT NULL default '0',                                      
+                     `maxrangedmg` float NOT NULL default '0',                                      
+                     `rangedattackpower` smallint(5) unsigned NOT NULL default '0',                 
+                     `combat_reach` float NOT NULL default '0',                                     
+                     `type` tinyint(3) unsigned default '0',                                        
+                     `civilian` tinyint(3) unsigned NOT NULL default '0',                           
+                     `flag1` int(11) unsigned default '0',                                          
+                     `equipmodel1` int(10) unsigned NOT NULL default '0',                           
+                     `equipmodel2` int(10) unsigned NOT NULL default '0',                           
+                     `equipmodel3` int(10) unsigned NOT NULL default '0',                           
+                     `equipinfo1` int(10) unsigned NOT NULL default '0',                            
+                     `equipinfo2` int(10) unsigned NOT NULL default '0',                            
+                     `equipinfo3` int(10) unsigned NOT NULL default '0',                            
+                     `equipslot1` int(10) unsigned NOT NULL default '0',                            
+                     `equipslot2` int(10) unsigned NOT NULL default '0',                            
+                     `equipslot3` int(10) unsigned NOT NULL default '0',                            
+                     `lootid` int(10) unsigned NOT NULL default '0',                                
+                     `pickpocketloot` int(10) unsigned NOT NULL default '0',                        
+                     `skinloot` int(10) unsigned NOT NULL default '0',                              
+                     `resistance1` int(10) unsigned NOT NULL default '0',                           
+                     `resistance2` int(10) unsigned NOT NULL default '0',                           
+                     `resistance3` int(10) unsigned NOT NULL default '0',                           
+                     `resistance4` int(10) unsigned NOT NULL default '0',                           
+                     `resistance5` int(10) unsigned NOT NULL default '0',                           
+                     `resistance6` int(10) unsigned NOT NULL default '0',                           
+                     `spell1` int(11) unsigned NOT NULL default '0',                                
+                     `spell2` int(11) unsigned NOT NULL default '0',                                
+                     `spell3` int(11) unsigned NOT NULL default '0',                                
+                     `spell4` int(11) unsigned NOT NULL default '0',                                
+                     `mingold` int(30) unsigned NOT NULL default '0',                               
+                     `maxgold` int(30) unsigned NOT NULL default '0',                               
+                     `AIName` varchar(128) NOT NULL default '',                                     
+                     `MovementType` tinyint(3) unsigned NOT NULL default '0',                       
+                     `ScriptName` varchar(128) NOT NULL default '',                                 
+                     PRIMARY KEY  (`entry`)                                                         
+                   ) ENGINE=MyISAM DEFAULT CHARSET=utf8 ROW_FORMAT=FIXED COMMENT='Creature System'  
+
+```
+
+### Column Layout ###
+
+| | | | | | | | | |
+|:|:|:|:|:|:|:|:|:|
+| | | | | | | | | |
+| | | | | | | | | |
+
+
+### Table Info ###
